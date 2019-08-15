@@ -7,10 +7,12 @@ import axios from "axios";
 //import NasaPhotoCard from "./components/PictureCall"; // works with old folder structure
 import NasaPhotoCard from "./components/Nasa/NasaPhoto/NasaPhotoCard"; 
 import "./App.css";
+// import  "semantic-ui-css//semantic.min.css";
+import styled from 'styled-components';
 
 function App() {
   // var nasaPhotoURL = "https://api.nasa.gov/planetary/apod";
-  var nasaPhotoURL = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2015-02-23"; 
+  var nasaPhotoURL = "https://api.nasa.gov/planetary/apod?api_key=B4l8sEsSgPnUTXpRJS6a1w8PnhM5tRCaD7621PDk&date=2019-08-14"; 
 
   const [nasaHeaderData, setNasaHeaderData] = useState("");
   const [nasaDateData, setNasaDateData] = useState("");
